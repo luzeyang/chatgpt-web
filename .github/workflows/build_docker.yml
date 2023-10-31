@@ -39,5 +39,5 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           platforms: linux/amd64,linux/arm64
           tags: |
-            LuYao/chatgpt-web:${{ github.ref_name }}
-            LuYao/chatgpt-web:latest
+            luyao/chatgpt-web:${{ github.ref_name }}
+            luyao/chatgpt-web:latest
