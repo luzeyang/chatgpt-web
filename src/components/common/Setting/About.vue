@@ -56,8 +56,21 @@ onMounted(() => {
           </a>
           ，免费且基于 MIT 协议，没有任何形式的付费行为！
         </p>
+
         <p>
-          如果你觉得此项目对你有帮助，请在 GitHub 帮我点个 Star 或者给予一点赞助，谢谢！
+          基于此开源版本修改调整
+          <a
+            class="text-blue-600 dark:text-blue-500"
+            href="https://github.com/luzeyang/chatgpt-web"
+            target="_blank"
+          >
+            GitHub
+          </a>
+          ，免费且基于 MIT 协议，没有任何形式的付费行为！
+        </p>
+
+        <p>
+          如果你觉得此项目对你有帮助，请在 GitHub 帮原作者点个 Star 或者给予一点赞助！
         </p>
       </div>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
@@ -68,8 +81,8 @@ onMounted(() => {
         {{ $t("setting.reverseProxy") }}：{{ config?.reverseProxy ?? '-' }}
       </p>
       <p>{{ $t("setting.timeout") }}：{{ config?.timeoutMs ?? '-' }}</p>
-      <p>{{ $t("setting.socks") }}：{{ config?.socksProxy ?? '-' }}</p>
-      <p>{{ $t("setting.httpsProxy") }}：{{ config?.httpsProxy ?? '-' }}</p>
+      <!--<p>{{ $t("setting.socks") }}：{{ config?.socksProxy ?? '-' }}</p>
+      <p>{{ $t("setting.httpsProxy") }}：{{ config?.httpsProxy ?? '-' }}</p> -->
     </div>
   </NSpin>
 </template>
